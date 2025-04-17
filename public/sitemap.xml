@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2025-04-17T22:16:08+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2025-04-17T22:16:08+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2025-04-17T22:16:08+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+  </url><url>
+    <loc>https://example.com/categories/test/</loc>
+  </url><url>
+    <loc>https://example.com/about/</loc>
+  </url><url>
+    <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://example.com/links/</loc>
+  </url>
+</urlset>

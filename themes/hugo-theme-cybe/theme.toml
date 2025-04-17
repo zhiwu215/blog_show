@@ -1,0 +1,27 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Cybe"
+license = "GPL-3.0-only"
+licenselink = "https://github.com/CaiJimmy/hugo-theme-stack/blob/master/LICENSE"
+description = "A card-style hugo theme based on stack"
+homepage = "https://github.com/kmeykranz/hugo-theme-cybe"
+demosite = "https://blog.fiveth.cc"
+
+tags = ["blog", "responsive", "clean", "light", "dark", "personal"]
+
+features = [
+    "disqus",
+    "photoswipe",
+    "opengraph",
+    "widgets",
+    "darkmode",
+    "table of contents",
+    "search",
+]
+
+min_version = "0.123.0"
+
+[author]
+name = "kmeykranz"
+homepage = "https://github.com/kmeykranz"
