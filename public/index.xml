@@ -314,6 +314,32 @@
     &gt;【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili&lt;/a&gt;34:29-44:55的视频&lt;/p&gt;
 &lt;h1 id=&#34;第八部分自定义域名&#34;&gt;第八部分：自定义域名
 &lt;/h1&gt;&lt;p&gt;在&lt;em&gt;&lt;strong&gt;阿里云&lt;/strong&gt;&lt;/em&gt;或者&lt;em&gt;&lt;strong&gt;腾讯云&lt;/strong&gt;&lt;/em&gt;等购买一个域名。在GitHub仓库的&lt;code&gt;Settings&lt;/code&gt;-&amp;gt;&lt;code&gt;Pages&lt;/code&gt;中配置自定义域名&lt;/p&gt;
+&lt;h1 id=&#34;第九部分其余更改&#34;&gt;第九部分：其余更改
+&lt;/h1&gt;&lt;h2 id=&#34;hugoyaml&#34;&gt;hugo.yaml
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;hugo.yaml&lt;/code&gt;中：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;baseurl: https://example.com/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;languageCode: zh-cn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;theme: hugo-theme-cybe
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: Example Site
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;copyright: Example Person
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;baseurl修改成你的网站域名，在主页，点击文章，会根据你的域名跳转文章的内容&lt;/p&gt;
+&lt;p&gt;title是网站的名字&lt;/p&gt;
+&lt;p&gt;copyright是版权&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;hugo.yaml&lt;/code&gt;中其余文字和emoji内容，按情况修改&lt;/p&gt;
+&lt;h2 id=&#34;categories文件夹&#34;&gt;categories文件夹
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;categories&lt;/code&gt;存放分类，自己定义，文档名称是&lt;code&gt;_index.md&lt;/code&gt;（我也不知道为什么加_）&lt;/p&gt;
 </description>
         </item>
         <item>

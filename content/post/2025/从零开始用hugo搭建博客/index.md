@@ -263,3 +263,25 @@ Netlify提供免费的HTTPS证书，默认启用HTTPS，提升网站安全性
 
 在***阿里云***或者***腾讯云***等购买一个域名。在GitHub仓库的`Settings`->`Pages`中配置自定义域名
 
+# 第九部分：其余更改
+## hugo.yaml
+`hugo.yaml`中：
+
+```markdown
+baseurl: https://example.com/
+languageCode: zh-cn
+theme: hugo-theme-cybe
+title: Example Site
+copyright: Example Person
+```
+
+> baseurl修改成你的网站域名，在主页，点击文章，会根据你的域名跳转文章的内容
+>
+> title是网站的名字
+>
+> copyright是版权
+
+`hugo.yaml`中其余文字和emoji内容，按情况修改
+
+## categories文件夹
+`categories`存放分类，自己定义，文档名称是`_index.md`（我也不知道为什么加_）
