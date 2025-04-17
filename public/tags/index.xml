@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 17 Apr 2025 22:16:08 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>博客搭建</title>
+        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+        <pubDate>Fri, 18 Apr 2025 00:09:31 +0800</pubDate>
+        
+        <guid>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>反思</title>
         <link>https://example.com/tags/%E5%8F%8D%E6%80%9D/</link>
         <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>博客搭建 on 知兀</title>
+        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+        <description>Recent content in 博客搭建 on 知兀</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>从零开始用hugo搭建博客</title>
+        <link>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+        <pubDate>Fri, 18 Apr 2025 00:09:31 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;h1 id=&#34;为什么使用hugo&#34;&gt;为什么使用Hugo
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;性能好&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt;：Hugo是采用 Go 语言编写的静态网站生成器，编译速度极快。在处理大量页面时，优势明显。比如构建拥有数千篇文章的大型博客，Hugo 可能在几秒内完成，不会因网站规模扩大而显著增加构建时间&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hexo&lt;/strong&gt;：基于 Node.js的静态网页生成器，构建速度相对较慢。处理大型项目时，构建时间会明显变长。不过，对于小型网站，构建速度的影响不大&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;弊端&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;静态网站的通病：没有后端。所有搜索、评论、在线写文章都需要通过插件（或主题）配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;参考&#34;&gt;参考
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;视频&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fNNreEEDi/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文档&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.eimoon.com/p/learn-hugo-blog-building-from-beginner-to-advanced/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;手把手学习 Hugo 博客的搭建:从入门到进阶&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;其他&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/cybe/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;个人选择主题的作者的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;第一部分环境搭建&#34;&gt;第一部分：环境搭建
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://hugo.opendocs.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;快速入门 | Hugo官方文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;根据官方文档的「快速入门」，安装hugo（我直接下载预编译的二进制文件，具体方法参考官方文档或者&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fNNreEEDi/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili&lt;/a&gt;的10:22-11:40）&lt;/p&gt;
+&lt;h1 id=&#34;第二部分创建hugo站点&#34;&gt;第二部分：创建Hugo站点
+&lt;/h1&gt;&lt;h2 id=&#34;创建hugo新站点&#34;&gt;创建Hugo新站点
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site my-blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其中 my-blog 是站点目录名称，可修改&lt;/p&gt;
+&lt;h1 id=&#34;第三部分配置主题&#34;&gt;第三部分：配置主题
+&lt;/h1&gt;&lt;h2 id=&#34;选择主题&#34;&gt;选择主题
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方主题仓库 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/topics/hugo-theme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo-theme · GitHub Topics&lt;/a&gt;（第三方主题仓库）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;选择喜欢的主题，按照对应的文档进行操作（&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fNNreEEDi/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili&lt;/a&gt;13:10-18:30，视频使用的是官方主题的「stack」）&lt;/p&gt;
+&lt;p&gt;我个人使用主题是：&lt;a class=&#34;link&#34; href=&#34;https://github.com/kmeykranz/hugo-theme-cybe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo-theme-cybe&lt;/a&gt;别人基于「stack」修改的主题，按照文档进行配置。可能遇到的问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.删掉默认的配置文件&lt;code&gt;config.toml&lt;/code&gt;，以前创建的站点目录中的文件叫做&lt;code&gt;config.toml&lt;/code&gt;，现在叫做&lt;code&gt;hugo.toml&lt;/code&gt;，删除它&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.获取主题文件，如果不能用git命令，直接下载源文件，把文件名删去最后的main，直接拖入themes中&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3.不知道为什么，我直接用hugo-theme-cybe搜索功能用不了，所以我是先放入了原本的「hugo-theme-stack」主题，然后放入「hugo-theme-cybe」把一些内容覆盖，之后再修改，就能正常使用搜索了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;根目录下&lt;code&gt;layouts&lt;/code&gt;和&lt;code&gt;themes/&amp;lt;theme name&amp;gt;/layouts/&lt;/code&gt;的区别&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;layouts/&lt;/code&gt;目录里保存是 Hugo 的模板文件。&lt;code&gt;layouts/&lt;/code&gt;是站点级别的模板&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;themes/&amp;lt;theme name&amp;gt;/layouts/&lt;/code&gt;是主题级别的模板，&lt;strong&gt;一般来说，站点级别模板的设置优先于主题级别的模板（&lt;em&gt;可修改优先级&lt;/em&gt;）&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;应用主题&#34;&gt;应用主题
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1.按照文档下载主题&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果&lt;em&gt;&lt;strong&gt;使用git命令&lt;/strong&gt;&lt;/em&gt;，自动生成在站点目录的&lt;code&gt;themes&lt;/code&gt;中&lt;/li&gt;
+&lt;li&gt;如果&lt;em&gt;&lt;strong&gt;手动下载源文件&lt;/strong&gt;&lt;/em&gt;，需要手动拖入&lt;code&gt;themes&lt;/code&gt;中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2.配置主题名称&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;下载完成后在 &lt;code&gt;hugo.yaml&lt;/code&gt; 文件中配置主题名称（这个hugo-theme-cybe是我使用的主题）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;theme: hugo-theme-cybe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h1 id=&#34;第四部分内容创建与管理&#34;&gt;第四部分：内容创建与管理
+&lt;/h1&gt;&lt;h2 id=&#34;了解hugo目录结构&#34;&gt;了解Hugo目录结构
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;目录可能不一样，但文件夹作用是一致的&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;my-blog/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── content              # 存放所有内容文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── _index.md        # 博客首页内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── post            # 博客文章
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   │   ├── first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   │   └── second-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── pages            # 博客页面
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│       └── about.md     # 关于页面
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── data                 # 存放站点数据
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── authors.yml      # 作者信息
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── config.toml      # 站点配置文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── i18n                 # 国际化语言文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── en.toml          # 英文语言文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── zh.toml          # 中文语言文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── layouts              # 存放页面模板
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── _default         # 默认模板
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── partials         # 模板片段
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── index.html       # 首页模板
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── assets               # 存放编译前的资源文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── css              # 存放 CSS 源文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── js               # 存放 JavaScript 源文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── images           # 存放图片源文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── resources            # 存放生成的资源文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── _gen             # 生成的资源文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── static               # 存放静态资源（如图片、CSS、JS）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── css              # 存放编译后的 CSS 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── js               # 存放编译后的 JavaScript 文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── images           # 存放图片文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── public               # 生成的网站文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── themes               # 存放主题文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── my-theme         # 自定义主题文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│       ├── layouts      # 存放页面模板
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│       ├── static       # 存放主题静态资源
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│       └── theme.toml   # 主题配置文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── archetypes           # 内容模板文件
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── default.md       # 默认内容模板
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── post.md          # 博客文章模板
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── hugo_build.lock      # Hugo 包管理文件
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;添加内容&#34;&gt;添加内容
+&lt;/h2&gt;&lt;p&gt;在&lt;code&gt;content/post&lt;/code&gt;目录中创建&lt;code&gt;my-first-post.md&lt;/code&gt;（&lt;em&gt;文件名，可更改&lt;/em&gt;）文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new content/post/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹&lt;/p&gt;
+&lt;p&gt;然后在post文件夹下直接创建文章，所以这么输入命令&lt;/p&gt;
+&lt;p&gt;可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;front-matter&#34;&gt;Front-matter
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/frontmatter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Front-matter&lt;/code&gt; 是 markdown 文件最上方以&lt;code&gt;---&lt;/code&gt;分隔的区域，用于指定个别档案的变数。&lt;code&gt;---&lt;/code&gt;下方使用markdown语法添加内容&lt;/p&gt;
+&lt;p&gt;基本：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: 这是标题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;description: 这是一个副标题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2020-09-09
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;darft: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;slug: test-chinese
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;image: helena-hertz-wWZzXlDpMog-unsplash.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;categories:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Test
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 测试
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tags:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 中文
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;toc: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;draft 是操作，值为 true。Hugo 在构建网站时不会发布草稿内容。如果删除，默认发布，类似draft是false&lt;/p&gt;
+&lt;p&gt;slug用来生成网页URL的路径部分。如果没有，网页路径的名字就是标题名&lt;/p&gt;
+&lt;p&gt;image是文章预览图。注意：想要使用image，文章必须命名成index.md（可以是像&lt;code&gt;index-zh-cn&lt;/code&gt;这样带语言的，但必须是index），同时文章和图片在同一个文件夹&lt;/p&gt;
+&lt;p&gt;categories是分类。可以用数组的写法，如：categories: [&amp;lsquo;分类1&amp;rsquo;，‘分类2&amp;rsquo;]&lt;/p&gt;
+&lt;p&gt;tags是标签。可以用数组的写法&lt;/p&gt;
+&lt;p&gt;toc是页面内容表，即标题&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;第五部分本地预览与配置&#34;&gt;第五部分：本地预览与配置
+&lt;/h1&gt;&lt;h2 id=&#34;博客本地预览&#34;&gt;博客本地预览
+&lt;/h2&gt;&lt;p&gt;在对内容和主题进行修改后，您可以使用以下命令进行本地预览：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo serve
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这将在你的浏览器中打开一个本地服务器，访问&lt;code&gt;http://localhost:1313&lt;/code&gt;来查看博客页面（本地预览默认是不渲染草稿）&lt;/p&gt;
+&lt;h1 id=&#34;第六部分github推送自动化和博客托管优化指南&#34;&gt;第六部分：GitHub推送自动化和博客托管优化指南
+&lt;/h1&gt;&lt;p&gt;可以使用&lt;em&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/em&gt;，将Hugo博客部署到互联网上，它是GitHub提供的免费静态网站托管服务&lt;/p&gt;
+&lt;p&gt;如果使用，GitHub Page，需要在GitHub上创建一个新的仓库，仓库名称遵循&lt;code&gt;your-github-username.github.io&lt;/code&gt;的格式（&lt;em&gt;your-github-username是你的github用户名&lt;/em&gt;）。这将是你博客的主域名&lt;/p&gt;
+&lt;p&gt;我使用&lt;em&gt;&lt;strong&gt;Netlify&lt;/strong&gt;&lt;/em&gt;托管&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;在使用Github Pages构建并托管博客时，我们面临一个常见问题：&lt;strong&gt;如何在保持源码安全的同时，将构建好的&lt;code&gt;public&lt;/code&gt;文件用于页面展示。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可以通过&lt;strong&gt;创建两个GitHub仓库来实现不同用途的分离和自动化管理&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;github推送自动化&#34;&gt;GitHub推送自动化
+&lt;/h2&gt;&lt;h3 id=&#34;源码仓库source&#34;&gt;源码仓库（source）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;用于存储博客相关的源码，包括Markdown文件、配置信息等未构建的内容&lt;/li&gt;
+&lt;li&gt;设为Private（私有）仓库，确保源码安全&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;展示仓库show&#34;&gt;展示仓库（show）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;用于存储构建后的文件（如public文件夹），供Github Pages或其他托管服务使用&lt;/li&gt;
+&lt;li&gt;设为Public（公开）仓库，确保可以正常访问页面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;步骤：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fNNreEEDi/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili&lt;/a&gt;20:47-35:05的视频&lt;/p&gt;
+&lt;p&gt;通过自动化工作流，把源码推送到私人仓库后，自动触发，推送到公开仓库&lt;/p&gt;
+&lt;h2 id=&#34;使用netlify托管&#34;&gt;使用Netlify托管
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.netlify.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Netlify官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;虽然GitHub Pages可以直接托管展示仓库的内容，但其二级域名（username.github.io）不够美观，也不满足个性化需求&lt;/p&gt;
+&lt;p&gt;可以使用Netlify这样的免费静态网页托管平台&lt;/p&gt;
+&lt;h3 id=&#34;为什么选择netlify&#34;&gt;为什么选择Netlify？
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1.自定义域名支持&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Netlify允许用户免费绑定自定义域名（&lt;em&gt;免费绑定，但域名要去阿里云等付费买&lt;/em&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.免费托管服务&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;提供免费、高效的静态网站托管服务，支持全球CDN&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.自动化部署&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Netlify可与GitHub仓库继承，自动从展示仓库拉取最新的构建内容并部署&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.HTTPS支持&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Netlify提供免费的HTTPS证书，默认启用HTTPS，提升网站安全性&lt;/p&gt;
+&lt;h1 id=&#34;第七部分typorapicgo图床配置&#34;&gt;第七部分：Typora+PicGo图床配置
+&lt;/h1&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fNNreEEDi/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili&lt;/a&gt;34:29-44:55的视频&lt;/p&gt;
+&lt;h1 id=&#34;第八部分自定义域名&#34;&gt;第八部分：自定义域名
+&lt;/h1&gt;&lt;p&gt;在&lt;em&gt;&lt;strong&gt;阿里云&lt;/strong&gt;&lt;/em&gt;或者&lt;em&gt;&lt;strong&gt;腾讯云&lt;/strong&gt;&lt;/em&gt;等购买一个域名。在GitHub仓库的&lt;code&gt;Settings&lt;/code&gt;-&amp;gt;&lt;code&gt;Pages&lt;/code&gt;中配置自定义域名&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
