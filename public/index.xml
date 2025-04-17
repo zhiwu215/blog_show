@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>知兀</title>
-        <link>https://example.com/</link>
+        <link>https://zhiwu215.netlify.app/</link>
         <description>Recent content on 知兀</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>知兀</copyright>
+        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://zhiwu215.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>从零开始用hugo搭建博客</title>
-        <link>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://zhiwu215.netlify.app/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Fri, 18 Apr 2025 00:09:31 +0800</pubDate>
         
-        <guid>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <guid>https://zhiwu215.netlify.app/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
         <description>&lt;h1 id=&#34;为什么使用hugo&#34;&gt;为什么使用Hugo
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;
@@ -318,10 +318,10 @@
         </item>
         <item>
         <title>第一次蓝桥杯的反思和学习方法</title>
-        <link>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
+        <link>https://zhiwu215.netlify.app/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
         <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>
         
-        <guid>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
+        <guid>https://zhiwu215.netlify.app/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
         <description>&lt;h1 id=&#34;反思-面向题解编程&#34;&gt;反思-面向题解编程
 &lt;/h1&gt;&lt;p&gt;4/14写&lt;/p&gt;
 &lt;p&gt;2025/4/12
@@ -375,18 +375,18 @@
         </item>
         <item>
         <title>归档</title>
-        <link>https://example.com/archives/</link>
+        <link>https://zhiwu215.netlify.app/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://zhiwu215.netlify.app/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://example.com/about/</link>
+        <link>https://zhiwu215.netlify.app/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/about/</guid>
+        <guid>https://zhiwu215.netlify.app/about/</guid>
         <description>&lt;h1 id=&#34;关于本站&#34;&gt;🔗关于本站
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;2025年4月14日，开始学习做博客&lt;/li&gt;
@@ -397,18 +397,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://example.com/search/</link>
+        <link>https://zhiwu215.netlify.app/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://zhiwu215.netlify.app/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://example.com/links/</link>
+        <link>https://zhiwu215.netlify.app/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>https://zhiwu215.netlify.app/links/</guid>
         <description>&lt;h2 id=&#34;本站信息&#34;&gt;本站信息🙂
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

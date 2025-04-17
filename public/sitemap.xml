@@ -2,60 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://zhiwu215.netlify.app/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://zhiwu215.netlify.app/categories/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://zhiwu215.netlify.app/post/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://zhiwu215.netlify.app/tags/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://zhiwu215.netlify.app/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://zhiwu215.netlify.app/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/</loc>
+    <loc>https://zhiwu215.netlify.app/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/</loc>
     <lastmod>2025-04-18T00:09:31+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <loc>https://zhiwu215.netlify.app/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%8F%8D%E6%80%9D/</loc>
+    <loc>https://zhiwu215.netlify.app/tags/%E5%8F%8D%E6%80%9D/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://zhiwu215.netlify.app/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://zhiwu215.netlify.app/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E5%BF%83%E5%BE%97%E4%BD%93%E4%BC%9A/</loc>
+    <loc>https://zhiwu215.netlify.app/categories/%E5%BF%83%E5%BE%97%E4%BD%93%E4%BC%9A/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://zhiwu215.netlify.app/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+    <loc>https://zhiwu215.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2025-04-17T22:16:08+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>https://zhiwu215.netlify.app/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>https://zhiwu215.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://zhiwu215.netlify.app/about/</loc>
   </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://zhiwu215.netlify.app/search/</loc>
   </url><url>
-    <loc>https://example.com/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
+    <loc>https://zhiwu215.netlify.app/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
   </url><url>
-    <loc>https://example.com/links/</loc>
+    <loc>https://zhiwu215.netlify.app/links/</loc>
   </url>
 </urlset>

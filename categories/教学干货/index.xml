@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>教学干货 on 知兀</title>
-        <link>https://example.com/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/</link>
+        <link>https://zhiwu215.netlify.app/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/</link>
         <description>Recent content in 教学干货 on 知兀</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://example.com/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>知兀</copyright>
+        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://zhiwu215.netlify.app/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>从零开始用hugo搭建博客</title>
-        <link>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://zhiwu215.netlify.app/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Fri, 18 Apr 2025 00:09:31 +0800</pubDate>
         
-        <guid>https://example.com/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <guid>https://zhiwu215.netlify.app/p/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
         <description>&lt;h1 id=&#34;为什么使用hugo&#34;&gt;为什么使用Hugo
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;

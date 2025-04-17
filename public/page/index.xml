@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 知兀</title>
-        <link>https://example.com/page/</link>
+        <link>https://zhiwu215.netlify.app/page/</link>
         <description>Recent content in Pages on 知兀</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>知兀</copyright>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zhiwu215.netlify.app/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://example.com/archives/</link>
+        <link>https://zhiwu215.netlify.app/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://zhiwu215.netlify.app/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://example.com/about/</link>
+        <link>https://zhiwu215.netlify.app/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/about/</guid>
+        <guid>https://zhiwu215.netlify.app/about/</guid>
         <description>&lt;h1 id=&#34;关于本站&#34;&gt;🔗关于本站
 &lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;2025年4月14日，开始学习做博客&lt;/li&gt;
@@ -31,18 +31,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://example.com/search/</link>
+        <link>https://zhiwu215.netlify.app/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://zhiwu215.netlify.app/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://example.com/links/</link>
+        <link>https://zhiwu215.netlify.app/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>https://zhiwu215.netlify.app/links/</guid>
         <description>&lt;h2 id=&#34;本站信息&#34;&gt;本站信息🙂
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on 知兀</title>
-        <link>https://example.com/tags/</link>
+        <link>https://zhiwu215.netlify.app/tags/</link>
         <description>Recent content in Tags on 知兀</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>知兀</copyright>
+        <lastBuildDate>Fri, 18 Apr 2025 00:09:31 +0800</lastBuildDate><atom:link href="https://zhiwu215.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>博客搭建</title>
-        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+        <link>https://zhiwu215.netlify.app/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
         <pubDate>Fri, 18 Apr 2025 00:09:31 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+        <guid>https://zhiwu215.netlify.app/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
         <description></description>
         </item>
         <item>
         <title>反思</title>
-        <link>https://example.com/tags/%E5%8F%8D%E6%80%9D/</link>
+        <link>https://zhiwu215.netlify.app/tags/%E5%8F%8D%E6%80%9D/</link>
         <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E5%8F%8D%E6%80%9D/</guid>
+        <guid>https://zhiwu215.netlify.app/tags/%E5%8F%8D%E6%80%9D/</guid>
         <description></description>
         </item>
         <item>
         <title>算法</title>
-        <link>https://example.com/tags/%E7%AE%97%E6%B3%95/</link>
+        <link>https://zhiwu215.netlify.app/tags/%E7%AE%97%E6%B3%95/</link>
         <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E7%AE%97%E6%B3%95/</guid>
+        <guid>https://zhiwu215.netlify.app/tags/%E7%AE%97%E6%B3%95/</guid>
         <description></description>
         </item>
         <item>
         <title>学习方法</title>
-        <link>https://example.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
+        <link>https://zhiwu215.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
         <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
+        <guid>https://zhiwu215.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
         <description></description>
         </item>
         

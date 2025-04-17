@@ -1,8 +1,8 @@
-baseurl: https://example.com/
+baseurl: https://zhiwu215.netlify.app/
 languageCode: zh-cn
 theme: hugo-theme-cybe
-title: Example Site
-copyright: Example Person
+title: 知兀
+copyright: 知兀
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw

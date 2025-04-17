@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>反思 on 知兀</title>
-        <link>https://example.com/tags/%E5%8F%8D%E6%80%9D/</link>
+        <link>https://zhiwu215.netlify.app/tags/%E5%8F%8D%E6%80%9D/</link>
         <description>Recent content in 反思 on 知兀</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 17 Apr 2025 22:16:08 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%8F%8D%E6%80%9D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>知兀</copyright>
+        <lastBuildDate>Thu, 17 Apr 2025 22:16:08 +0800</lastBuildDate><atom:link href="https://zhiwu215.netlify.app/tags/%E5%8F%8D%E6%80%9D/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>第一次蓝桥杯的反思和学习方法</title>
-        <link>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
+        <link>https://zhiwu215.netlify.app/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
         <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>
         
-        <guid>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
+        <guid>https://zhiwu215.netlify.app/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
         <description>&lt;h1 id=&#34;反思-面向题解编程&#34;&gt;反思-面向题解编程
 &lt;/h1&gt;&lt;p&gt;4/14写&lt;/p&gt;
 &lt;p&gt;2025/4/12
