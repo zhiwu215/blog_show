@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>学习方法 on 知兀</title>
+        <link>https://example.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
+        <description>Recent content in 学习方法 on 知兀</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 17 Apr 2025 22:16:08 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第一次蓝桥杯的反思和学习方法</title>
+        <link>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Thu, 17 Apr 2025 22:16:08 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%93%9D%E6%A1%A5%E6%9D%AF%E7%9A%84%E5%8F%8D%E6%80%9D%E5%92%8C%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;h1 id=&#34;反思-面向题解编程&#34;&gt;反思-面向题解编程
+&lt;/h1&gt;&lt;p&gt;4/14写&lt;/p&gt;
+&lt;p&gt;2025/4/12
+这一天，蓝桥杯结束&lt;br&gt;
+我也深刻的明白了自己的不足，平日里没有思考，只是看一眼，然后就直接看题解，这样的方式对我没有任何的锻炼&lt;br&gt;
+考场上的题目，对我而言，就好像是一道道&lt;strong&gt;脑筋急转弯+数学题&lt;/strong&gt;，完全没有思路&lt;/p&gt;
+&lt;h1 id=&#34;学习方法&#34;&gt;学习方法
+&lt;/h1&gt;&lt;p&gt;过去我的学习方法出了问题，我直接开始做题目，妄图从题目中学习算法，但实际上，如果&lt;strong&gt;没有最基础的算法了解，根本不能从题目里学到东西&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;学习的步骤：&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;1.数据结构&lt;/strong&gt;&lt;br&gt;
+对于数据结构，我最先看的是&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1H4411N7oD/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;浙江大学数据结构 陈越&lt;/a&gt;，却觉得不够清楚，于是我就换了老师&lt;br&gt;
+然后又找了B站上的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1nJ411V7bd/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;数据结构与算法基础（青岛大学-王卓）&lt;/a&gt;
+这个老师的视频，在我看来，就清楚多了(第一章全是概念，会云里雾里，但是没有关系，熬过去后面就好了)&lt;br&gt;
+&lt;strong&gt;对于蓝桥杯，数据结构其实没有必要那么正统的学完&lt;/strong&gt;，了解最基本的表，栈，堆，树，图等是如何存储的就行了，这个数据结构的课其实没有必要全部完完整整地看完&lt;br&gt;
+不过实际上，我们大一上虽然没有数据结构，但是学了&lt;strong&gt;离散数学&lt;/strong&gt;，大一上报名的蓝桥杯，大一下的四月比赛，有一整个学期的时间，只要学了离散数学，也会对一些数据结构有基本的了解
+(教材的离散数学真不是人看的，很难懂，&lt;strong&gt;最好还是跳着看王卓老师的数据结构课，了解最基本的存储结构&lt;/strong&gt;)&lt;br&gt;
+第一步：数据结构，完全没有必要浪费太多的时间看得面面俱到，一定要很快地跳着看，后面忘记了，再回来复习&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.算法&lt;/strong&gt;&lt;br&gt;
+（&lt;strong&gt;以下up的书写顺序，就是观看顺序&lt;/strong&gt;）
+我最开始只会c，不会c++，所以我看了&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/1929366563&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;-超级小暴龙-
+&lt;/a&gt;的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1M1YLePE4u/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;C/C++（基础讲解+算法辅导）&lt;/a&gt;系列，了解了最基本的&lt;strong&gt;c++和容器的使用&lt;/strong&gt;&lt;br&gt;
+（这个up会讲题，但只需要明白如果使用c++和了解容器就足够了，不会完全按照这个up的写法写题，因为你还不懂算法，而且其实&lt;strong&gt;也不用每道题都用容器&lt;/strong&gt;）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;对于算法，在学习的别人的过程中，&lt;strong&gt;首先要找一个人模仿，然后有自己的写法，到了最后看别人的题解也要改成自己的写法的地步&lt;/strong&gt;&lt;br&gt;
+无论是变量名，还是初始化的位置等等，如果看不同的老师，可能每一道题都有不同的写法，这样对自己根本没有任何的帮助&lt;br&gt;
+这里我推荐B站的up&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/40733116&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;溶金落梧桐&lt;/a&gt;，他的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1oTcUexEht?spm_id_from=333.788.videopod.sections&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝桥杯三十天冲刺&lt;/a&gt;系列，能带你清晰的了解很多考试会考的算法&lt;br&gt;
+而且也&lt;strong&gt;写代码的方式也可以完全参照他&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;对于字符串、结构体、stl等&lt;/strong&gt;可以看&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/668396100/upload/video&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;小水獭鸽鸽&lt;/a&gt;的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Uz421Q7jQ/?spm_id_from=333.1387.upload.video_card.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝桥杯一个月冲刺省一（专项复习）&amp;ndash;备赛技巧&lt;/a&gt;系列&lt;br&gt;
+（这个up在这个系列后面还会讲bfs等算法，有些算法&lt;strong&gt;溶金落梧桐&lt;/strong&gt;讲了，优先以他的为准）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这三个up里，最重要，一定要看的就是溶金落梧桐&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.刷题&lt;/strong&gt;&lt;br&gt;
+刷题，一定要自己什么都不看，独立思考一道题20~30分钟，对于每一道题，都要当成正规考试的题目，不能有任何的查阅资料的行为，没有思考，就没有任何效果&lt;/p&gt;
+&lt;p&gt;对于刷题，可以看up主小水獭鸽鸽的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1eZ421a7VU/?spm_id_from=333.1387.upload.video_card.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;蓝桥杯备战&lt;/a&gt;（一定要自己先思考半小时做完再看up!!!）&lt;br&gt;
+之后对于各种零散的题目，可以看题目本身的题解，或者在B站上搜别人的解题思路（&lt;strong&gt;不同的人，同一个的算法也有不同的写法，一定要按照自己的写法做题&lt;/strong&gt;）&lt;/p&gt;
+&lt;h1 id=&#34;接下来&#34;&gt;接下来
+&lt;/h1&gt;&lt;p&gt;这次的蓝桥杯，我大概率是打铁了&lt;br&gt;
+接下来，我就要准备&lt;strong&gt;CCF CSP认证&lt;/strong&gt;了&lt;br&gt;
+希望这次蓝桥杯，能让我涨涨教训&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
