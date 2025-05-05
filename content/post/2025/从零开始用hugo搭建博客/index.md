@@ -142,11 +142,13 @@ my-blog/
 hugo new content/post/my-first-post.md
 ```
 
->hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹
->
->然后在post文件夹下直接创建文章，所以这么输入命令
+>hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令
 >
 >可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md
+>
+>不过博客还有image，文章预览图。想要使用image，文章必须命名成index.md。我个人的习惯是：hugo new content/post/文章的标题当作文件夹名/index.md
+>
+>index.md不影响文章的标题名
 
 ### Front-matter
 
@@ -229,6 +231,16 @@ hugo serve
 
 通过自动化工作流，把源码推送到私人仓库后，自动触发，推送到公开仓库
 
+### 发布文章
+
+这里已经按照视频里的步骤配置好了，发布文章的代码也是最基本的三个，用终端打开博客所在的文件夹，然后依次输入：
+
+```bash
+git add .
+git commit -m "备注信息"
+git push -u origin main
+```
+
 ## 使用Netlify托管
 
 [Netlify官网](https://www.netlify.com/)
@@ -264,7 +276,9 @@ Netlify提供免费的HTTPS证书，默认启用HTTPS，提升网站安全性
 在***阿里云***或者***腾讯云***等购买一个域名。在GitHub仓库的`Settings`->`Pages`中配置自定义域名
 
 # 第九部分：其余更改
+
 ## hugo.yaml
+
 `hugo.yaml`中：
 
 ```markdown
@@ -284,4 +298,13 @@ copyright: Example Person
 `hugo.yaml`中其余文字和emoji内容，按情况修改
 
 ## categories文件夹
+
 `categories`存放分类，自己定义，文档名称是`_index.md`（我也不知道为什么加_）
+
+## 头像、网站页签，代码块顶部图标
+
+头像我放在了`themes/hugo-theme-cybe/assets/img`里
+
+网站页签和代码块顶部，我直接从[kmeykranz/blog-file: Hugo博客源文件](https://github.com/kmeykranz/blog-file)作者源文件里，把`static`整个文件复制过来
+
+把自己的图片变成页签，需要把图片转成**ico**格式，可以看[【教程】jpg转ico,将桌面软件图标更换为任意自己喜欢的图片！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1uD4y1e78D/?spm_id_from=333.337.search-card.all.click))

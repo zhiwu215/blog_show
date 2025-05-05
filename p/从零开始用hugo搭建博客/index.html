@@ -443,9 +443,10 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹</p>
-<p>然后在post文件夹下直接创建文章，所以这么输入命令</p>
-<p>可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md</p></blockquote>
+<p>hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令</p>
+<p>可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md</p>
+<p>不过博客还有image，文章预览图。想要使用image，文章必须命名成index.md。我个人的习惯是：hugo new content/post/文章的标题当作文件夹名/index.md</p>
+<p>index.md不影响文章的标题名</p></blockquote>
 <h3 id="front-matter">Front-matter
 </h3><p><a class="link" href="https://stack.jimmycai.com/writing/frontmatter"  target="_blank" rel="noopener"
     >官网</a></p>
@@ -526,7 +527,21 @@
 <p><a class="link" href="https://www.bilibili.com/video/BV1fNNreEEDi/?spm_id_from=333.337.search-card.all.click&amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157"  target="_blank" rel="noopener"
     >【大学生提高课】3 hexo与hugo博客搭建与github自动化推送和服务器推送_哔哩哔哩_bilibili</a>20:47-35:05的视频</p>
 <p>通过自动化工作流，把源码推送到私人仓库后，自动触发，推送到公开仓库</p>
-<h2 id="使用netlify托管">使用Netlify托管
+<h3 id="发布文章">发布文章
+</h3><p>这里已经按照视频里的步骤配置好了，发布文章的代码也是最基本的三个，用终端打开博客所在的文件夹，然后依次输入：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;备注信息&#34;</span>
+</span></span><span class="line"><span class="cl">git push -u origin main
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="使用netlify托管">使用Netlify托管
 </h2><p><a class="link" href="https://www.netlify.com/"  target="_blank" rel="noopener"
     >Netlify官网</a></p>
 <p>虽然GitHub Pages可以直接托管展示仓库的内容，但其二级域名（username.github.io）不够美观，也不满足个性化需求</p>
@@ -571,6 +586,12 @@
 <p><code>hugo.yaml</code>中其余文字和emoji内容，按情况修改</p>
 <h2 id="categories文件夹">categories文件夹
 </h2><p><code>categories</code>存放分类，自己定义，文档名称是<code>_index.md</code>（我也不知道为什么加_）</p>
+<h2 id="头像网站页签代码块顶部图标">头像、网站页签，代码块顶部图标
+</h2><p>头像我放在了<code>themes/hugo-theme-cybe/assets/img</code>里</p>
+<p>网站页签和代码块顶部，我直接从<a class="link" href="https://github.com/kmeykranz/blog-file"  target="_blank" rel="noopener"
+    >kmeykranz/blog-file: Hugo博客源文件</a>作者源文件里，把<code>static</code>整个文件复制过来</p>
+<p>把自己的图片变成页签，需要把图片转成<strong>ico</strong>格式，可以看<a class="link" href="https://www.bilibili.com/video/BV1uD4y1e78D/?spm_id_from=333.337.search-card.all.click"  target="_blank" rel="noopener"
+    >【教程】jpg转ico,将桌面软件图标更换为任意自己喜欢的图片！_哔哩哔哩_bilibili</a>)</p>
 
 </section>
 
