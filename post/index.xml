@@ -212,7 +212,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令&lt;/p&gt;
+&lt;p&gt;hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令（&lt;em&gt;直接手动新建文件夹创建也没事&lt;/em&gt;）&lt;/p&gt;
 &lt;p&gt;可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md&lt;/p&gt;
 &lt;p&gt;不过博客还有image，文章预览图。想要使用image，文章必须命名成index.md。我个人的习惯是：hugo new content/post/文章的标题当作文件夹名/index.md&lt;/p&gt;
 &lt;p&gt;index.md不影响文章的标题名&lt;/p&gt;&lt;/blockquote&gt;
@@ -418,11 +418,48 @@
 接下来，我就要准备&lt;strong&gt;CCF CSP认证&lt;/strong&gt;了&lt;br&gt;
 希望这次蓝桥杯，能让我涨涨教训&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;2025/5/5
-蓝桥杯成绩4/30号，就出来了，但五一光顾着怠惰了，所以没有写博客
-拿了一个省二(&lt;em&gt;比赛是真的水&lt;/em&gt;)
-下次努力进过赛吧
+&lt;p&gt;2025/5/5&lt;br&gt;
+蓝桥杯成绩4/30号，就出来了，但五一光顾着怠惰了，所以没有写博客&lt;br&gt;
+拿了一个省二(&lt;em&gt;比赛是真的水&lt;/em&gt;)&lt;br&gt;
+下次努力进国赛吧&lt;br&gt;
 最近喜欢上了贝斯，大抵没有心思准备CCF CSP认证了&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://zhiwu215.netlify.app/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zhiwu215.netlify.app/p/</guid>
+        <description>&lt;h1 id=&#34;接触贝斯&#34;&gt;接触贝斯
+&lt;/h1&gt;&lt;p&gt;在2025/5/4晚上，看了这个视频&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1e75ozMEYm/?spm_id_from=333.1391.0.0&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;你懂个XX后朋克？_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我个人本来就喜欢&lt;strong&gt;Corn Wave &lt;strong&gt;乐队的&lt;/strong&gt;Evening&lt;/strong&gt;、&lt;strong&gt;манго нектар&lt;/strong&gt;（芒果花蜜）、&lt;strong&gt;netlfix in the morning&lt;/strong&gt;（清晨的奈飞） 、&lt;strong&gt;Ploho&lt;/strong&gt;乐队的&lt;strong&gt;Вечер грустных пар&lt;/strong&gt;（悲伤情侣之夜）、&lt;strong&gt;SadSvit&lt;/strong&gt;乐队的&lt;strong&gt;Небо&lt;/strong&gt;（天空） 等很多后朋克音乐&lt;/p&gt;
+&lt;p&gt;然后我就去搜索后朋克相关的视频，了解到了电吉他和贝斯这两个乐器。电吉他的声音对我来说太热烈，我比较喜欢贝斯低沉，稳重的声音&lt;/p&gt;
+&lt;p&gt;我看了点&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1V7411a7c6/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;禅贝斯“零”基础入门！（23节课更新完毕）_哔哩哔哩_bilibili&lt;/a&gt;还有&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1my41187Dp?spm_id_from=333.788.videopod.sections&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【贝斯教学 | 零基础入门 - 0】我为什么做这个系列？学完能有什么水平？如何使用本系列视频？| 开始学习前先看看这个视频！_哔哩哔哩_bilibili&lt;/a&gt;的内容&lt;/p&gt;
+&lt;p&gt;在手机上，我下载在&lt;em&gt;&lt;strong&gt;Real Bass&lt;/strong&gt;&lt;/em&gt;还有&lt;em&gt;&lt;strong&gt;随身乐队&lt;/strong&gt;&lt;/em&gt;这两个软件，本来想着用手机上的软件先玩玩，等未来再买贝斯，直到……&lt;/p&gt;
+&lt;h1 id=&#34;第一把贝斯&#34;&gt;第一把贝斯
+&lt;/h1&gt;&lt;p&gt;2025/5/6&lt;/p&gt;
+&lt;p&gt;我路过潘x杰他们117宿舍，发现有一把吉他，问了才知道，是刘x淇在学，他说已经学了半年了&lt;/p&gt;
+&lt;p&gt;他和我说，隔壁宿舍有个学长，他弹贝斯，我就认识那个学长了，还加了微信好友，叫陈x元&lt;/p&gt;
+&lt;p&gt;那个学长问了我有没有买琴，本来近几天就看了不少贝斯的视频，然后又看到这两个玩乐器的人，我就心血来潮决定买琴了&lt;/p&gt;
+&lt;p&gt;我本来看了视频，想要买lbanez，然后看到这个视频里&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1aaoTYWExg/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=7382d11a54f8a0e8a3163cc36fe6f157&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2025年的贝斯手们已经快要失控了_哔哩哔哩_bilibili&lt;/a&gt;，有评论说“旋钮扭过头，就会把电线扯断，包边处理，能把我划伤”，我就不敢买了&lt;/p&gt;
+&lt;p&gt;学长说他第一把琴就是gsr200，这个评论说的没错，然后他就给我推荐贝斯了&lt;/p&gt;
+&lt;p&gt;一开始推荐了tagima tw73，我预算1600左右，这把琴刚刚好1600，他说他这里有认识贝斯工作室的老师，比较靠谱&lt;/p&gt;
+&lt;p&gt;但是这把琴是j贝斯。我已经看到评论说，新手除非想专心练slap，要不然就买pj贝斯，不行就p贝斯&lt;/p&gt;
+&lt;p&gt;然后学长就给我推荐了jd的贝斯，1900&lt;/p&gt;
+&lt;p&gt;我和学长说了我对于p、j、pj贝斯的顾虑，在我浅薄的认识中，p贝斯适合乐队、j贝斯适合slap和solo、pj贝斯卡在中间&lt;/p&gt;
+&lt;p&gt;学长说j贝斯并不是为slap而生的 p贝斯也不是完全都混乐队的，这取决于你玩的风格，他见到的后朋克，玩j的多。pbass比jbass先诞生，所以它的音色是非常复古的，下潜很足。pbass也一样，它也可以拿来slap。其实玩后朋克的用p和j的都有，那个音色取决于你的手法，pbass就需要用效果器，jbass要靠在后拾音器上弹。&lt;/p&gt;
+&lt;p&gt;从泛用性的角度来说，jbass是绝对大于pbass，这也是为什么他默认我会买j，因为 作为一个新手其实也并不知道自己会适合什么风格&lt;/p&gt;
+&lt;p&gt;最后我决定买tagima tw73&lt;/p&gt;
+&lt;p&gt;他拉了个群，让我问问琴况，问问1600买了配套送什么，让介绍介绍配置，用的什么木头啥的，然后问问有啥颜色，选我喜欢的颜色就行，还可以问问能不能拍照看看，拍视频听听声啥的&lt;/p&gt;
+&lt;p&gt;最后，我买了tagima tw73，白色（&lt;em&gt;只有黑色和白色&lt;/em&gt;），1600整，全新，送包，线，调琴工具，擦琴布&lt;/p&gt;
+&lt;h1 id=&#34;学习贝斯&#34;&gt;学习贝斯
+&lt;/h1&gt;&lt;p&gt;2025/5/8&lt;/p&gt;
+&lt;p&gt;贝斯到了，开始学吧&lt;/p&gt;
 </description>
         </item>
         

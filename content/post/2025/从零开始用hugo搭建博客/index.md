@@ -142,7 +142,7 @@ my-blog/
 hugo new content/post/my-first-post.md
 ```
 
->hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令
+>hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令（*直接手动新建文件夹创建也没事*）
 >
 >可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md
 >

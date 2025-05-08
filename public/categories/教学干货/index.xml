@@ -212,7 +212,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令&lt;/p&gt;
+&lt;p&gt;hugo new 什么，这是固定的。在我的目录中，content文件夹是存放所有内容的文件夹，post是存放博客文章的文件夹。然后想要在post文件夹下直接创建文章，所以这么输入命令（&lt;em&gt;直接手动新建文件夹创建也没事&lt;/em&gt;）&lt;/p&gt;
 &lt;p&gt;可以多添加几个文件夹（可中文/英文），或者修改md文档的名称（可中文/英文），比如：hugo new content/post/2025/样例.md&lt;/p&gt;
 &lt;p&gt;不过博客还有image，文章预览图。想要使用image，文章必须命名成index.md。我个人的习惯是：hugo new content/post/文章的标题当作文件夹名/index.md&lt;/p&gt;
 &lt;p&gt;index.md不影响文章的标题名&lt;/p&gt;&lt;/blockquote&gt;
